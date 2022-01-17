@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hkt</groupId>
+    <artifactId>hkt-saas</artifactId>
+    <packaging>pom</packaging>
+    <version>1.1</version>
+
+    <modules>
+   <!-- 依赖关系按如下的编号顺序打包 -->
+   <!-- 1 -->    <module>hkt-saas-cloud</module>
+   <!-- 2 -->    <module>hkt-user-tenant</module>
+   <!-- 3 -->    <module>hkt-user-authority</module>
+   <!-- 4 -->    <module>hkt-user-oauth</module>
+   <!-- 5 -->    <module>hkt-industrial-house</module>
+   <!-- 6 -->    <module>hkt-industrial-business</module>
+   <!-- 7 -->    <module>hkt-industrial-property</module>
+   <!-- 8 -->    <module>hkt-industrial-hardware</module>
+        <module>hkt-ioc</module>
+    </modules>
+    <build>
+        <!-- To define the plugin version in your parent POM -->
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-idea-plugin</artifactId>
+                    <version>2.2.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <!-- To use the plugin goals in your POM or parent POM -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-idea-plugin</artifactId>
+                <version>2.2.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

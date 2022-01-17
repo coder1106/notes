@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+'object London
+'object Washington
+'object Berlin
+'object NewYork
+'
+'map CapitalCity {
+' UK *-> London
+' USA *--> Washington
+' Germany *---> Berlin
+'}
+'
+'NewYork --> CapitalCity::USA
+object sys_permission
+map sys_platform_permission {
+    permission_id *-> sys_permission
+}
+map sys_park_permission {
+    permission_id *-> sys_permission
+}
+map sys_park_type_permission {
+    permission_id *-> sys_permission
+}
+map sys_company_permission {
+    permission_id *-> sys_permission
+}
+map sys_role_permission {
+    permission_id *-> sys_permission
+}
+
+object sys_app_permission
+map sys_app_platform_permission {
+    app_permission_id *-> sys_app_permission
+}
+map sys_app_park_permission {
+    app_permission_id *-> sys_app_permission
+}
+map sys_app_park_type_permission {
+    app_permission_id *-> sys_app_permission
+}
+map sys_app_company_permission {
+    app_permission_id *-> sys_app_permission
+}
+
+
+@enduml

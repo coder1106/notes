@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+'Alice -> Bob: Authentication Request
+'Bob --> Alice: Authentication Response
+'
+'Alice -> Bob: Another authentication Request
+'Alice <-- Bob: another authentication Response
+
+wuye_fee_scheme_house --> wuye_fee_scheme --> wuye_fee_scheme_detail --> wuye_community_fees
+wuye_fees_project_bill（应收）
+wuye_fees_project_receipt（已收）
+@enduml
