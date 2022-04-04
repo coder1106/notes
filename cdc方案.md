@@ -8,3 +8,6 @@ https://flink-learning.org.cn/article/detail/3ebe9f20774991c4d5eeb75a141d9e1e
 
 Flink SQL CDC实践以及一致性分析
 https://www.modb.pro/db/45331
+
+DDL支持
+https://github.com/ververica/flink-cdc-connectors/issues/795
