@@ -14,6 +14,8 @@ https://github.com/ververica/flink-cdc-connectors/issues/795
 
 
 flink cdc datastream方式保存到mysql或其他存储中
+
 https://blog.csdn.net/weixin_35757704/article/details/121306250
 https://bigdata.bihell.com/hadoop/flink/datastream-api-sink.html#%E8%BE%93%E5%87%BA%E5%88%B0%E6%96%87%E4%BB%B6
 https://www.liangzl.com/get-article-detail-232952.html
+https://www.studytime.xin/article/flink-mysql-source-sink.html
