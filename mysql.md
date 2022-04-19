@@ -11,3 +11,7 @@ https://blog.51cto.com/u_12592884/2697522
 https://www.cnblogs.com/michael9/p/11923483.html
 
 http://zhongmingmao.me/2019/03/04/mysql-data-recovery/
+
+
+show variables like "max_connections";
+set global max_connections = 500;
